@@ -9,7 +9,8 @@ public class Spaniel extends Dog{
 	
 	//Override Methods
 	public void sit() {
-		System.out.println(" spins in a circle and sits down.");		
+		String name = getName();
+		System.out.println(name + " spins in a circle and sits down.");		
 	}
 	
 	public void bark() {

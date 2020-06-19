@@ -8,7 +8,8 @@ public class RobotDog extends Dog{
 	
 	//Override Methods
 	public void sit() {
-		System.out.println("Before you can finish saying the command the robot dog sits.");		
+		String name = getName();
+		System.out.println("Before you can finish saying the command, " + name + " sits.");		
 	}
 	
 	public void bark() {
