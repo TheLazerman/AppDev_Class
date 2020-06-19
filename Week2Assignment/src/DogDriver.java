@@ -21,9 +21,9 @@ public class DogDriver {
 		spot.bark();
 		
 
-		System.out.println("Günter, sit.");
+		System.out.println("Gunter, sit.");
 		gunter.sit();
-		System.out.println("Günter, speak.");
+		System.out.println("Gunter, speak.");
 		gunter.bark();
 		
 	}
