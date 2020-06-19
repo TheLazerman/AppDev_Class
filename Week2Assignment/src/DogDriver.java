@@ -9,8 +9,8 @@ public class DogDriver {
 		//Spot will destroy us all
 		RobotDog spot = new RobotDog(200, "Spot", "female", "robotic");
 		
-		//Günter is a crazy puppy
-		Spaniel günter = new Spaniel(1, "Günter", "female", "crazy");
+		//Gunter is a crazy puppy
+		Spaniel gunter = new Spaniel(1, "Günter", "female", "crazy");
 		
 		System.out.println("Gus, speak.");
 		gus.bark();
@@ -22,9 +22,9 @@ public class DogDriver {
 		
 
 		System.out.println("Günter, sit.");
-		günter.sit();
+		gunter.sit();
 		System.out.println("Günter, speak.");
-		günter.bark();
+		gunter.bark();
 		
 	}
 }
