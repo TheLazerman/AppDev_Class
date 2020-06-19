@@ -4,7 +4,7 @@ public class DogDriver {
 	public static void main(String[] args) {
 		
 		//Gus is a normal dog who's a bit shy
-		Dog gus = new Dog(2, "Gus", "male", "timid");
+		Dog gus = new Dog(3, "Gus", "male", "timid");
 		
 		//Spot will destroy us all
 		RobotDog spot = new RobotDog(200, "Spot", "female", "robotic");

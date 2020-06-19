@@ -14,6 +14,6 @@ public class Spaniel extends Dog{
 	}
 	
 	public void bark() {
-		System.out.println("Bark!!");
+		System.out.println("Ruff!!");
 	}	
 }
