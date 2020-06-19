@@ -10,7 +10,7 @@ public class DogDriver {
 		RobotDog spot = new RobotDog(200, "Spot", "female", "robotic");
 		
 		//Gunter is a crazy puppy
-		Spaniel gunter = new Spaniel(1, "Günter", "female", "crazy");
+		Spaniel gunter = new Spaniel(1, "Gunter", "female", "crazy");
 		
 		System.out.println("Gus, speak.");
 		gus.bark();
