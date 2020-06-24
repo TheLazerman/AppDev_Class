@@ -51,6 +51,8 @@ public class Dog {
 		return personality;
 	}
 	
+	
+	
 	//Methods
 	public void bark() {
 		System.out.println("Woof!");
@@ -59,6 +61,7 @@ public class Dog {
 	public void sit() {
 		System.out.println(name + " Sits.");
 	}
+	
 	public void stay() {
 		System.out.println(name + " Stays.");
 	}
