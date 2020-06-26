@@ -13,7 +13,7 @@ class catTest {
 	
 	@BeforeAll
 	static void setUpBeforeClass() throws Exception {
-		felix = new Cat("Felix", "male", 7);
+		felix = new Cat("Felix", "male", 6, false, 10);
 	}
 
 	@Test
@@ -24,6 +24,8 @@ class catTest {
 		assertEquals("male", felix.getGender());
 		assertEquals(6, felix.getAge());
 		assertNotEquals(7, felix.getAge());
+		assertNotEquals(true, felix.getIsAMouser());
+		assertNotEquals(12, felix.getWeight());
 	}
 
 }
