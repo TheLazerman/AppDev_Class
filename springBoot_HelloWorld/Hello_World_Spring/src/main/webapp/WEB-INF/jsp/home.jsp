@@ -14,6 +14,7 @@
 
     <!-- Bootstrap core CSS -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
+<script type="text/javascript" src="js/home.js"></script>
 
     <style>
       .bd-placeholder-img {
@@ -78,7 +79,8 @@
 
 
   <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
-    <div class="col-md-6 px-0">
+    <div style="clear: right;" class="col-md-auto px-0">
+      <img style="float: right;" src="img/sunk.png" align="right">
       <h1 class="display-4 font-italic">The Sunk-Cost Fallacy</h1>
       <p class="lead my-3">If you always do what you've always done... Even if you've put time and money into something, should you continue to do so when you discover better oportunities? </p>
       <p class="lead mb-0"><a href="https://journals.sagepub.com/doi/full/10.1177/0956797617752641" class="text-white font-weight-bold" target="_blank">Continue reading...</a></p>
@@ -192,8 +194,21 @@
         <a class="btn btn-outline-secondary disabled" href="#" tabindex="-1" aria-disabled="true">Newer</a>
       </nav>
     -->
+    
+    <!-- Cheaty/lazy just using the java element from class.. -->
+	<span id=button_span">
+		<input id="button_text" value="Type Here...">
+		<button type="button" onclick="myFunction()">
+		Submit
+		</button>
+		<div id="button_output">text here</div>
+	</span>
 
     </div><!-- /.blog-main -->
+
+
+
+
 
 <!-- About asside
     <aside class="col-md-4 blog-sidebar">
@@ -232,9 +247,9 @@
           <li><a href="#">Facebook</a></li>
         </ol>
       </div>
+
     </aside>
   -->
-
   </div><!-- /.row -->
 
 </main><!-- /.container -->
